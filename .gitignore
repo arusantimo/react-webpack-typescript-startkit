@@ -1,0 +1,9 @@
+dist
+node_modules
+.vscode
+typings
+nohup.out
+*.swp
+*.log
+src/**/*.js
+coverage
