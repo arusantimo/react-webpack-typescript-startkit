@@ -1,13 +1,9 @@
-# Management Dashborad iRobo
-
-아이로보 관리자 데시보드입니다.
+# react webpack typescript startkit
 
 
 ## install
 
 Install and build demo:
 
-    $ npm install
     $ npm run build
-
-...now open "index.html" in your browser to see the counter in action!
+    $ npm run dev

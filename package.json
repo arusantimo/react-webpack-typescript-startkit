@@ -1,8 +1,7 @@
 {
-  "name": "ManagementDashboard",
+  "name": "react-webpack-typescript",
   "version": "0.0.1",
-  "private": true,
-  "description": "iRobo inner Management Dashboard Beta",
+  "description": "react-webpack-typescript",
   "main": "index.js",
   "author": "Lee Chang Gyu(Arusantimo)",
   "engines": {
@@ -10,7 +9,7 @@
   },
   "scripts": {
     "dev": "npm run server-dev | node webpack-dev-server.js",
-    "local_build": "npm install && $(npm bin)/webpack --display-modules --colors --config webpack/webpack.dev.js",
+    "build": "npm install && $(npm bin)/webpack --display-modules --colors --config webpack/webpack.dev.js",
     "server-dev": "$(npm bin)/ts-node src/server/index.ts --without-csp",
     "clean": "rm -rf dist"
   },
